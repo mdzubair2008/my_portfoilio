@@ -1,78 +1,103 @@
-<!-- CONTACT -->
-<section id="contact" class="slide">
-  <div class="contact-wrap">
-    <div class="c-info">
-      <h1>Get In<br><span style="color:aqua;">Touch</span></h1>
-      <p>Have a project or just want to say hello? I'd love to hear from you!</p>
-      <div class="c-row">
-        <div class="c-icon">👤</div>
-        <div class="c-text"><h4>Name</h4><p>MD. Zubair</p></div>
-      </div>
-      <div class="c-row">
-        <div class="c-icon">📍</div>
-        <div class="c-text"><h4>Location</h4><p>Amritapuri, Kerala, India</p></div>
-      </div>
-      <div class="c-row">
-        <div class="c-icon">📞</div>
-        <div class="c-text"><h4>Phone</h4><p>+91 77802 77607</p></div>
-      </div>
-      <div class="c-row">
-        <div class="c-icon">✉️</div>
-        <div class="c-text"><h4>Email</h4><p>yourname@email.com</p></div>
-      </div>
-      <div class="c-row">
-        <div class="c-icon">🕐</div>
-        <div class="c-text"><h4>Availability</h4><p>Mon–Sat, 9 AM – 7 PM IST</p></div>
-      </div>
-      <div class="socials">
-        <a class="s-btn" href="#">GitHub</a>
-        <a class="s-btn" href="#">LinkedIn</a>
-        <a class="s-btn" href="#">Twitter</a>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — MD. Zubair</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <div class="c-form">
-      <input type="checkbox" id="sent">
-      <div class="form-box">
-        <h2>Send a <span>Message</span></h2>
-        <div class="row2">
-          <div class="fg">
-            <label>First Name</label>
-            <input type="text">
-          </div>
-          <div class="fg">
-            <label>Last Name</label>
-            <input type="text">
-          </div>
+<nav class="navbar">
+  <a href="index.html" class="logo">MD.<span>ZUBAIR</span></a>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page">
+  <div class="section-inner">
+    <div class="contact-grid">
+
+      <div class="c-info fade-in">
+        <h1>Get In<br><span>Touch</span></h1>
+        <p>Have a project or just want to say hello? I'd love to hear from you!</p>
+        <div class="c-row">
+          <div class="c-icon">👤</div>
+          <div class="c-text"><h4>Name</h4><p>MD. Zubair</p></div>
         </div>
-        <div class="fg">
-          <label>Email</label>
-          <input type="email">
+        <div class="c-row">
+          <div class="c-icon">📍</div>
+          <div class="c-text"><h4>Location</h4><p>Amritapuri, Kerala, India</p></div>
         </div>
-        <div class="fg">
-          <label>Phone</label>
-          <input type="tel">
+        <div class="c-row">
+          <div class="c-icon">📞</div>
+          <div class="c-text"><h4>Phone</h4><p>+91 77802 77607</p></div>
         </div>
-        <div class="fg">
-          <label>Subject</label>
-          <select>
-            <option value="" disabled selected></option>
-            <option>Hire Me / Freelance</option>
-            <option>Collaboration</option>
-            <option>Feedback</option>
-            <option>Other</option>
-          </select>
+        <div class="c-row">
+          <div class="c-icon">✉️</div>
+          <div class="c-text"><h4>Email</h4><p>yourname@email.com</p></div>
         </div>
-        <div class="fg">
-          <label>Message</label>
-          <textarea></textarea>
+        <div class="c-row">
+          <div class="c-icon">🕐</div>
+          <div class="c-text"><h4>Availability</h4><p>Mon–Sat, 9 AM – 7 PM IST</p></div>
         </div>
-        <div class="f-btns">
-          <label for="sent" class="sub-lbl"><span>🚀 Send Message</span></label>
-          <label class="rst-lbl">🔄 Reset</label>
-          <label for="s1" class="exit-lbl">✖ Close</label>
+        <div class="socials">
+          <a class="s-btn" href="#" target="_blank">GitHub</a>
+          <a class="s-btn" href="#" target="_blank">LinkedIn</a>
+          <a class="s-btn" href="#" target="_blank">Twitter</a>
         </div>
       </div>
+
+      <div class="fade-in">
+        <div class="form-box">
+          <h2>Send a <span>Message</span></h2>
+          <div class="row2">
+            <div class="fg">
+              <label>First Name</label>
+              <input type="text" placeholder="John">
+            </div>
+            <div class="fg">
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe">
+            </div>
+          </div>
+          <div class="fg">
+            <label>Email</label>
+            <input type="email" placeholder="john@email.com">
+          </div>
+          <div class="fg">
+            <label>Phone</label>
+            <input type="tel" placeholder="+91 00000 00000">
+          </div>
+          <div class="fg">
+            <label>Subject</label>
+            <select>
+              <option value="" disabled selected>Select a subject</option>
+              <option>Hire Me / Freelance</option>
+              <option>Collaboration</option>
+              <option>Feedback</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Message</label>
+            <textarea placeholder="Your message here..."></textarea>
+          </div>
+          <div class="f-btns">
+            <button class="sub-btn">🚀 Send Message</button>
+            <button class="rst-btn" type="reset">🔄 Reset</button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</section>
+</div>
+
+</body>
+</html>
