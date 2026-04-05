@@ -3,23 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio — MD. Zubair</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+<title>Home — MD. Zubair</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<input type="radio" name="nav" id="s1" checked>
-<input type="radio" name="nav" id="s2">
-<input type="radio" name="nav" id="s3">
-<input type="radio" name="nav" id="s4">
-<input type="radio" name="nav" id="s5">
-
-<!-- NAVBAR -->
 <nav class="navbar">
-  <div class="logo">MD.<span>ZUBAIR</span></div>
+  <a href="index.html" class="logo">MD.<span>ZUBAIR</span></a>
   <ul class="menu">
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html" class="active">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="skills.html">Skills</a></li>
     <li><a href="projects.html">Projects</a></li>
@@ -27,34 +19,34 @@
   </ul>
 </nav>
 
-<!-- HOME -->
-<section id="home" class="slide">
-  <div class="left">
-    <p class="tag">👋 Welcome to my portfolio</p>
-    <h1>Hi, I'm <span>MD. Zubair</span></h1>
-    <p class="role">Full-Stack Web Developer &nbsp;·&nbsp; B.Tech CSE &nbsp;·&nbsp; Problem Solver</p>
-    <p class="bio">
-      I'm a passionate Computer Science student at Amrita Amritapuri, building clean and responsive
-      web experiences. I enjoy turning complex problems into simple, elegant solutions — one line of
-      code at a time.
-    </p>
-    <div class="chips">
-      <span class="chip">HTML5</span>
-      <span class="chip">CSS3</span>
-      <span class="chip">JavaScript</span>
-      <span class="chip">Node.js</span>
-      <span class="chip">React</span>
-      <span class="chip">C++</span>
-      <span class="chip">Git</span>
+<div class="page">
+  <div class="home-wrap">
+    <div class="home-left fade-in">
+      <p class="tag">👋 Welcome to my portfolio</p>
+      <h1>Hi, I'm <span>MD. Zubair</span></h1>
+      <p class="role">Full-Stack Web Developer &nbsp;·&nbsp; B.Tech CSE &nbsp;·&nbsp; Problem Solver</p>
+      <p class="bio">
+        I'm a passionate Computer Science student at Amrita Amritapuri, building clean and responsive
+        web experiences. I enjoy turning complex problems into simple, elegant solutions — one line of
+        code at a time.
+      </p>
+      <div class="chips">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">React</span>
+        <span class="chip">C++</span>
+        <span class="chip">Git</span>
+      </div>
+      <div class="cta">
+        <a href="projects.html" class="btn-a">View Projects</a>
+        <a href="contact.html" class="btn-b">Hire Me</a>
+      </div>
     </div>
-    <div class="cta">
-      <label for="s4" class="btn-a">View Projects</label>
-      <label for="s5" class="btn-b">Hire Me</label>
-    </div>
-  </div>
-  <div class="right" style="align-items:center;">
-    <div class="img-wrap">
-      <div class="ring">
+
+    <div class="home-right fade-in">
+      <div class="ring-outer">
         <div class="ring-inner">
           <div class="profile-logo">
             <div class="initials">MZ</div>
@@ -69,4 +61,8 @@
       </div>
     </div>
   </div>
+</div>
+
+</body>
+</html>
 </section>
